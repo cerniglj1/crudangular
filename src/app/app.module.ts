@@ -12,8 +12,9 @@ import { FormsModule } from "@angular/forms";
 /* Auth service */
 import { AuthService } from "./auth.service";
 import { NavigationComponent } from './navigation/navigation.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
-  declarations: [AppComponent, SigninComponent, NavigationComponent],
+  declarations: [AppComponent, SigninComponent, NavigationComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
